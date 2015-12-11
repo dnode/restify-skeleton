@@ -1,0 +1,23 @@
+{
+  "name": "restify-skeleton",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "http://github.com/dnode/restify-skeleton",
+  "license": "MIT",
+  "private": true,
+  "readmeFilename": "README.md",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "dthrong"
+  },
+  "dependencies": {
+    "dcontrollers": "^1.0.0",
+    "dnewrelic": "^1.4.0",
+    "drestify": "^1.0.0",
+    "dthrong": "^2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dnode/restify-skeleton.git"
+  }
+}
