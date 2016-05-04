@@ -8,13 +8,17 @@
   "readmeFilename": "README.md",
   "main": "src/app.js",
   "scripts": {
-    "start": "dthrong"
+    "start": "dthrong",
+    "develop": "node -r dotenv/config src/app.js"
   },
   "dependencies": {
     "dcontrollers": "^1.0.0",
     "dnewrelic": "^1.4.0",
     "drestify": "^1.0.0",
     "dthrong": "^2.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^2.0.0"
   },
   "repository": {
     "type": "git",
